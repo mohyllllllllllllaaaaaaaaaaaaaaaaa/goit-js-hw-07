@@ -51,3 +51,11 @@ color: #2e2f42;
   border: 1px solid #808080;
 border-radius: 4px;
 }
+/*task3*/
+#name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin: 0;
+  width: 360px;
+  height: 30px;
+}
