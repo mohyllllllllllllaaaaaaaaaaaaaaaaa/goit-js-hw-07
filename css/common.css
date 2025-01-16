@@ -12,3 +12,42 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/*task1*/
+#categories {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  align-items: flex-start;
+
+}
+ul {
+  list-style: none;
+  gap: 24px;
+  margin-left: 0;
+
+}
+.item {
+  background: #f6f6fe;
+  border-radius: 8px;
+padding: 16px;
+border: none;
+width: 392px;
+margin-left: 16px;
+
+}
+.item h2 {
+  margin: 0 0 8px 40px;
+font-weight: 600;
+font-size: 24px;
+line-height: 133%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+.item li {
+  margin: 0 0 8px 0;
+  list-style: none;
+  padding: 8px;
+  border: 1px solid #808080;
+border-radius: 4px;
+}
