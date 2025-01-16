@@ -37,8 +37,9 @@ const galList = images
 gallery.insertAdjacentHTML('beforeend', galList);
 gallery.style.display = 'grid';
 gallery.style.gridTemplateColumns = 'repeat(3, 1fr)'
-gallery.style.gap = '16px';
+gallery.style.columnGap = '24px';
+gallery.style.rowGap = '48px';
 gallery.style.listStyle = 'none';
 gallery.style.padding = '0';
-gallery.style.margin ='0';
+gallery.style.margin ='0 154px';
 
