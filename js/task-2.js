@@ -35,6 +35,7 @@ const galList = images
   .join('');
 
 gallery.insertAdjacentHTML('beforeend', galList);
+
 gallery.style.display = 'grid';
 gallery.style.gridTemplateColumns = 'repeat(3, 1fr)'
 gallery.style.columnGap = '24px';

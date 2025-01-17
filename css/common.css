@@ -59,3 +59,46 @@ border-radius: 4px;
   width: 360px;
   height: 30px;
 }
+/*task4*/
+.login-form {
+  direction: block;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background-color: #fff;
+  align-items: center ;
+}
+.login-form label {
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+}
+.login-form input{
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+border-radius: 4px;
+}/*
+.login-form input:hover,
+.login-form input:focus
+{
+  border: #000;
+}*/
+.login-form button {
+  border-radius: 8px;
+  border: none;
+padding: 8px 16px;
+width: 86px;
+height: 40px;
+background: #4e75ff;
+margin: 16px 0;
+}
+.login-form button:hover,
+.login-form button:focus
+{
+  background-color: #6c8cff;
+}
+  
