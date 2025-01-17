@@ -20,7 +20,7 @@ body.style.width = '345px';
 body.style.height = '280px';
 body.style.alignItems = 'center';
 
-changeColorButton.style.backgroundColor
+changeColorButton.style.backgroundColor = '#4e75ff';
 changeColorButton.style.width = '148px';
 changeColorButton.style.height = '40px';
 changeColorButton.style.borderRadius = '8px';
