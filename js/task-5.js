@@ -13,17 +13,9 @@ changeColorButton.addEventListener('click', () => {
   body.style.backgroundColor = randomColor; 
   colorSpan.textContent = randomColor; 
 });
-body.style.display = 'block';
-body.style.flexDirection = 'column';
-body.style.padding = '100px 88px';
-body.style.width = '345px';
-body.style.height = '280px';
-body.style.alignItems = 'center';
 
-changeColorButton.style.backgroundColor = '#4e75ff';
-changeColorButton.style.width = '148px';
-changeColorButton.style.height = '40px';
-changeColorButton.style.borderRadius = '8px';
+
+
 changeColorButton.addEventListener('mouseover', () => {
   changeColorButton.style.backgroundColor = '#6c8cff'; 
 });

@@ -51,6 +51,15 @@ color: #2e2f42;
   border: 1px solid #808080;
 border-radius: 4px;
 }
+/*task2*/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ gap: 24px;
+ list-style: none;
+padding: 0;
+margin: 0 154px;
+}
 /*task3*/
 #name-input {
   border: 1px solid #808080;
@@ -81,24 +90,27 @@ border-radius: 4px;
   height: 40px;
   border: 1px solid #808080;
 border-radius: 4px;
-}/*
-.login-form input:hover,
-.login-form input:focus
-{
-  border: #000;
-}*/
+}
 .login-form button {
-  border-radius: 8px;
+   border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
   border: none;
-padding: 8px 16px;
-width: 86px;
+  margin: 16px 0;
+}
+.login-form button:hover {
+  background-color:  #6c8cff;
+}
+/*task5*/
+.change-color {
+background-color: #4e75ff;
+width: 148px;
 height: 40px;
-background: #4e75ff;
-margin: 16px 0;
+border-radius: 8px;
+border: none;
+color: #fff;
 }
-.login-form button:hover,
-.login-form button:focus
-{
-  background-color: #6c8cff;
-}
-  
+/*task6*/
+
